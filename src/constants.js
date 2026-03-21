@@ -29,7 +29,7 @@ export const BOOT_LINES = [
   {
     id: 'role',
     prefix: '>',
-    segments: [{ text: 'role: Senior Product Lead / Systems Architect' }],
+    segments: [{ text: 'role: Product Lead / Systems Architect' }],
     typeSpeed: 30,
     pauseAfter: 1350,
   },
@@ -56,7 +56,7 @@ export const BOOT_LINES = [
     prefix: '>',
     segments: [
       {
-        text: 'Emma operates across tech, code, product strategy, positioning, systems security, design & communications',
+        text: 'Emma operates across product, systems, code, security, design, & communication',
       },
     ],
     tone: 'strong',
@@ -74,7 +74,7 @@ export const BOOT_LINES = [
   {
     id: 'cap-ux',
     prefix: '✔',
-    segments: [{ text: 'ux systems', accent: true }],
+    segments: [{ text: 'ux/design', accent: true }],
     tone: 'accent',
     typeSpeed: 26,
     pauseAfter: 950,
@@ -112,7 +112,7 @@ export const BOOT_LINES = [
   },
   {
     id: 'thinking',
-    segments: [{ text: 'non-linear thinker' }],
+    segments: [{ text: 'thinking model: non-linear' }],
     offset: 'detail',
     typeSpeed: 28,
     pauseAfter: 950,

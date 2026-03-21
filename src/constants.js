@@ -27,7 +27,7 @@ export const BOOT_LINES = [
   {
     id: 'statement',
     segments: [
-      { text: "Emma builds things that make sense in a world that doesn't." },
+      { text: "EMMA_HAGER builds things that make sense in a world that doesn't." },
     ],
     tone: 'strong',
     typeSpeed: 31,
@@ -67,7 +67,7 @@ export const BOOT_LINES = [
     id: 'scope',
     segments: [
       {
-        text: 'Emma operates across product, systems, code, security, design & communication',
+        text: 'EMMA_HAGER operates across product, systems, code, security, design & communication',
       },
     ],
     tone: 'strong',

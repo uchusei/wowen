@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>404 | WOWEN&#174; – Emma Hager</title>
+    <style>
+      @font-face {
+        font-family: 'WOWEN Terminal';
+        src: url('/fonts/SFMonoRegular.otf') format('opentype');
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap;
+      }
+
+      :root {
+        color-scheme: dark;
+        --bg: #000;
+        --text: rgba(255, 255, 255, 0.82);
+        --text-soft: rgba(255, 255, 255, 0.56);
+        --line: rgba(255, 255, 255, 0.1);
+        --accent: #91ff6a;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background: var(--bg);
+        color: var(--text);
+        font: 400 16px/1.6 'WOWEN Terminal', 'SF Mono', Menlo, Monaco, monospace;
+      }
+
+      main {
+        min-height: 100vh;
+        padding: 32px 20px;
+        display: grid;
+        place-items: center;
+      }
+
+      .trace {
+        width: min(100%, 44rem);
+        display: flex;
+        flex-direction: column;
+        gap: 0.9rem;
+      }
+
+      .line {
+        margin: 0;
+        display: flex;
+        gap: 0.75rem;
+        font-size: clamp(1.05rem, 1.8vw, 1.3rem);
+      }
+
+      .line--dim {
+        color: var(--text-soft);
+      }
+
+      .prefix {
+        color: var(--text-soft);
+        flex: 0 0 auto;
+      }
+
+      a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+
+      a:hover,
+      a:focus-visible {
+        outline: none;
+        text-decoration: none;
+      }
+
+      .rule {
+        height: 1px;
+        background: var(--line);
+        margin: 0.4rem 0 0.2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="trace" aria-label="404 trace">
+        <p class="line line--dim"><span class="prefix">></span><span>route lookup failed</span></p>
+        <p class="line"><span class="prefix">></span><span>error: 404 not found</span></p>
+        <p class="line line--dim"><span class="prefix">></span><span>reason: requested path does not resolve to a public route</span></p>
+        <div class="rule" aria-hidden="true"></div>
+        <p class="line"><span class="prefix">></span><a href="/">return</a></p>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'WOWEN Terminal';
+  src: url('/fonts/SFMonoRegular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --bg: #000000;
+  --text-strong: #ffffff;
+  --text: rgba(255, 255, 255, 0.82);
+  --text-soft: rgba(255, 255, 255, 0.64);
+  --text-muted: rgba(255, 255, 255, 0.5);
+  --text-faint: rgba(255, 255, 255, 0.3);
+  --line: rgba(255, 255, 255, 0.1);
+  --accent: #91ff6a;
+  --font-mono: 'WOWEN Terminal', 'SF Mono', Menlo, Monaco, monospace;
+
+  color: var(--text);
+  background: var(--bg);
+  font-family: var(--font-mono);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100svh;
+  background: #000000;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: rgba(145, 255, 106, 0.15);
+}
+
+#root {
+  min-height: 100svh;
+}

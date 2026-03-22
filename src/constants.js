@@ -133,7 +133,7 @@ export const BOOT_LINES = [
     prefix: '✔',
     segments: [
       { text: 'see gaps others overlook: ' },
-      { text: 'VERY HIGH', accent: true },
+      { text: 'HIGH', accent: true },
     ],
     tone: 'accent',
     typeSpeed: 26,

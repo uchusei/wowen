@@ -92,8 +92,8 @@ function isSafariBrowser() {
   return /Safari\//i.test(userAgent) && !/Chrome\//i.test(userAgent) && !/Edg\//i.test(userAgent)
 }
 
-const FAST_FORWARD_TYPE_SPEED = 7
-const FAST_FORWARD_PAUSE = 120
+const FAST_FORWARD_TYPE_SPEED = 4
+const FAST_FORWARD_PAUSE = 70
 
 function buildPreludeLines() {
   return [

@@ -3,7 +3,7 @@ export const BOOT_LINES = [
     id: 'init',
     prefix: '>',
     segments: [
-      { text: 'initializing system... WOWEN OS v0.1 — pre-release build' },
+      { text: 'initializing system... WOWEN OS v14.3 — pre-release build' },
     ],
     tone: 'dim',
     typeSpeed: 30,

@@ -113,7 +113,7 @@ function buildPreludeLines() {
     },
     {
       id: 'boot-build',
-      segments: [{ text: 'build: wowen_os@0.1' }],
+      segments: [{ text: 'build: wowen_os@14.3' }],
       tone: 'dim',
       typeSpeed: 24,
       pauseAfter: 520,

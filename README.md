@@ -2,7 +2,7 @@
 
 # WOWEN
 
-This is my homebase site. Current prebuild version is built with React and Vite ❤️
+Current version is built with React and Vite ❤️
 
 ---
 

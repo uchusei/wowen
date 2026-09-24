@@ -27,7 +27,7 @@ function App() {
 
       <main id="main-content">
         <h1>
-          I build things that make sense in a world that doesn’t. Digital Product Lead &amp; Developer, based in Stockholm.
+          I build things that make sense in a world that doesn’t. Digital Manager &amp; Developer, based in Stockholm.
         </h1>
 
         <div className="details">

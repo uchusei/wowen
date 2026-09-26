@@ -35,7 +35,7 @@ function App() {
             Selected collaborations include Bonnier, Adidas, Axiell, Publit and Notion—across dozens of products, platforms and ideas.
           </p>
           <p>
-            I’m currently not taking on new assignments, as I’m focused on my role as Head of Digital at an international healthcare group. That said, if you have an idea worth exploring, an interesting challenge, or simply want to talk—feel free to get in touch.
+           Currently busy, always curious—if you have an idea worth exploring, an interesting challenge, or simply want to talk—feel free to get in touch.
           </p>
         </div>
       </main>

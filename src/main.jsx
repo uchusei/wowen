@@ -27,7 +27,7 @@ function App() {
 
       <main id="main-content">
         <h1>
-          I build things that make sense in a world that doesn’t. Digital Manager &amp; Developer, based in Stockholm.
+          I build things that make sense in a world that doesn’t. Head of Digital &amp; Developer, based in Stockholm.
         </h1>
 
         <div className="details">
@@ -35,7 +35,7 @@ function App() {
             Selected collaborations include Bonnier, Adidas, Axiell, Publit and Notion—across dozens of products, platforms and ideas.
           </p>
           <p>
-            Currently busy, always curious. If you have an idea worth exploring—or simply want to talk—get in touch.
+            I’m currently not taking on new assignments, as I’m focused on my role as Head of Digital at an international healthcare group. That said, if you have an idea worth exploring, an interesting challenge, or simply want to talk—feel free to get in touch.
           </p>
         </div>
       </main>
